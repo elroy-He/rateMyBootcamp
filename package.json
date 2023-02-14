@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "rateMyBootcamp backend api",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon server"
+  },
+  "author": "Elroy He",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
